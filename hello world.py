@@ -37,3 +37,8 @@ print("Shakun Sharma" * 10)
 
 # Print my name 10 times in differnt lines.
 print("Shakun Sharma\n" * 10)
+
+# OR
+ 
+# Print my name 10 times in differnt lines.
+print(("Shakun Sharma" + "\n") * 10)
