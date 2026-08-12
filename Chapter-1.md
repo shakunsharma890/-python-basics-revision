@@ -1,32 +1,76 @@
-# Chapter 1 — Descriptions of Recent Files
+# Python Basics Revision - Recently Added Files
 
-This chapter documents the purpose and quick description of files recently added to the repository.
-
-## Expression.py
-- Added: 2026-08-12T14:37:28Z
-- Commit: "Add Expression.py from python-practice"
-- Purpose: Explained expressions, statements, comments, and indentation in Python with examples and notes. The file is primarily instructional text describing how expressions and statements differ and why indentation matters.
-
-## UserInput.py
-- Added: 2026-08-12T14:37:17Z
-- Commit: "Add UserInput.py from python-practice"
-- Purpose: A short sample program demonstrating how to take input from a user in Python (reading a name and age, converting input to int) and printing the values.
-
-## code execution.py
-- Added: 2026-08-12T14:37:08Z
-- Commit: "Add code execution.py from python-practice"
-- Purpose: A small Python example showing variable assignment and reassignment and printing values. Good for illustrating basic variable behavior.
-
-## new_file.py
-- Added: 2026-08-12T14:36:57Z
-- Commit: "Add new_file.py from python-practice"
-- Purpose: Minimal starter file that prints "Hello, World!". Useful as a placeholder or simple test.
+This document provides descriptions of the files recently added to the Python Basics Revision repository.
 
 ---
 
-If you'd like, I can:
-- Move this into a folder (e.g., `chapters/Chapter-1.md`),
-- Add links to each commit or file in the repo,
-- Expand each section with code snippets or usage notes.
+## 📚 Files Overview
 
-Tell me if you want any of those changes and I'll apply them.
+### 1. **expression.py**
+- **Purpose**: Explained expressions, statements, comments, and indentation in Python with examples and notes.
+- **Key Topics**:
+  - Understanding expressions vs. statements
+  - Python comments and their usage
+  - Indentation rules and syntax
+  - Example expressions and their evaluation
+- **Added**: 2026-08-12T14:37:28Z
+- **Commit**: "Add Expression.py from python-practice"
+- **Use Case**: Instructional file for understanding Python fundamentals
+
+---
+
+### 2. **userinput.py**
+- **Purpose**: A practical program demonstrating how to take input from a user in Python.
+- **Key Features**:
+  - Reading user input (name, age, etc.)
+  - Type conversion (e.g., converting string input to `int`)
+  - Displaying and printing values
+  - Interactive user engagement
+- **Added**: 2026-08-12T14:37:17Z
+- **Commit**: "Add UserInput.py from python-practice"
+- **Use Case**: Learning input/output operations and data type conversion
+
+---
+
+### 3. **code_execute.py**
+- **Purpose**: A simple Python example showing variable assignment and reassignment.
+- **Key Concepts**:
+  - Variable creation and initialization
+  - Variable reassignment
+  - Printing variable values
+  - Basic variable behavior
+- **Added**: 2026-08-12T14:37:08Z
+- **Commit**: "Add code execution.py from python-practice"
+- **Use Case**: Understanding how variables work in Python
+
+---
+
+## 🚀 Getting Started
+
+To run any of these Python files:
+
+```bash
+python expression.py
+python userinput.py
+python code_execute.py
+```
+
+---
+
+## 📖 Learning Path
+
+1. Start with **expression.py** to understand Python syntax basics
+2. Move to **code_execute.py** to learn about variables
+3. Practice with **userinput.py** to interact with user input
+
+---
+
+## 📝 Notes
+
+- All files are beginner-friendly
+- Each file includes comments for better understanding
+- Perfect for Python basics revision and practice
+
+---
+
+**Happy Learning! 🐍**
