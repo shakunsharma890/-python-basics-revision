@@ -19,40 +19,37 @@ This chapter covers the very basics of Python and getting started with programmi
 * Introduction to Python
 * Python installation and setup
 * Writing and running Python programs
-* Basic syntax
+* Basic Python syntax
 * `print()` function
 * Comments
 * Basic program execution
-* Simple Python practice programs
 
-**Goal:**
-Build a basic understanding of Python syntax and learn how to write and execute simple Python programs.
+**Status:** ✅ Completed
 
 ---
 
-### 🔵 Chapter 1 — Python Basics
+### 🔵 Chapter 1 — Variables & User Input
 
-Chapter 1 focuses on the fundamental building blocks used when writing Python programs.
+This chapter focuses on variables, taking input from the user, and working with basic values in Python.
 
 **Topics covered:**
 
 * Variables
-* Values and expressions
-* Taking user input
-* Output using `print()`
-* Basic calculations
-* Working with different values
-* Simple problem-solving programs
-* Practice exercises
+* Variable naming rules
+* Assigning values to variables
+* `input()` function
+* User input
+* Type conversion
+* Basic input/output programs
+* Practical examples
 
-**Goal:**
-Understand how Python programs work with variables, input, output, and basic operations.
+**Status:** ✅ Completed
 
 ---
 
-### 🟣 Chapter 2 — Data Types, Type Conversion & Operators
+### 🟣 Chapter 2 — Data Types & Operators
 
-Chapter 2 goes deeper into Python's basic data handling and operations.
+This chapter focuses on Python's built-in data types and the different operators used to perform operations.
 
 **Topics covered:**
 
@@ -60,115 +57,189 @@ Chapter 2 goes deeper into Python's basic data handling and operations.
 
 * `int`
 * `float`
+* `complex`
 * `str`
 * `bool`
-* `type()` function
-
-#### Keywords
-
-* Python reserved keywords
-* Understanding why keywords cannot be used as variable names
-* `help("keywords")`
-
-#### Input & Output
-
-* `input()`
-* `print()`
-* Converting user input
-
-#### Type Conversion
-
-* Implicit type conversion
-* Explicit type conversion
-* `int()`
-* `float()`
-* `str()`
-* `bool()`
+* Type conversion
 
 #### Operators
 
 * Arithmetic operators
+* Assignment operators
 * Comparison operators
 * Logical operators
-* Assignment operators
-* Identity operators
 * Membership operators
+* Identity operators
 
-#### Programs & Practice
+I also practiced different expressions and programming exercises to understand how Python evaluates operations.
 
-* Sum and average programs
-* Temperature converter
-* Bill split calculator
-* Output-based questions
-* Syntax-error identification
-* Theory and coding assignments
-
-**Goal:**
-Build a strong understanding of Python's basic data types, conversions, operators, and their practical use in programs.
+**Status:** ✅ Completed
 
 ---
 
-## 📂 Repository Structure
+### 🟠 Chapter 3 — Strings
 
-```text
--python-basics-revision/
-│
-├── Chapter 0/
-│   └── ...
-│
-├── Chapter 1/
-│   └── ...
-│
-├── Chapter 2/
-│   ├── datatype.py
-│   ├── explicit.py
-│   ├── implicit.py
-│   ├── operator.py
-│   ├── practice.py
-│   │
-│   └── assignment/
-│       ├── sectionA.py
-│       ├── sectionB.py
-│       └── sectionC.py
-│
-└── README.md
+This chapter focuses on understanding and working with **strings in Python**.
+
+**Topics covered:**
+
+* String basics
+* Creating strings
+* Single and double quotes
+* String indexing
+* Positive indexing
+* Negative indexing
+* String slicing
+* String concatenation
+* String repetition
+* Escape sequences
+* Formatted strings
+* String methods
+* Additional string operations
+* String practice questions
+* String assignments
+
+#### 🔹 String Indexing
+
+Learned how to access individual characters from a string using positive and negative indexes.
+
+Example:
+
+```python
+text = "Python"
+
+print(text[0])
+print(text[-1])
 ```
 
+#### 🔹 String Slicing
+
+Learned how to extract a portion of a string using slicing.
+
+Example:
+
+```python
+text = "Python"
+
+print(text[0:3])
+print(text[2:])
+print(text[:4])
+```
+
+#### 🔹 Escape Sequences
+
+Practiced using escape sequences to represent special characters.
+
+Example:
+
+```python
+print("Hello\nPython")
+print("Hello\tPython")
+```
+
+#### 🔹 Formatted Strings
+
+Learned how to insert variables directly into strings using formatted string literals.
+
+Example:
+
+```python
+name = "Shakun"
+age = 21
+
+print(f"My name is {name} and I am {age} years old.")
+```
+
+#### 🔹 String Methods
+
+Practiced commonly used string methods such as:
+
+```python
+upper()
+lower()
+strip()
+replace()
+split()
+find()
+count()
+```
+
+**Practice programs included:**
+
+* `StringBasic.py`
+* `indexing.py`
+* `slicing.py`
+* `Escape_sequences.py`
+* `formatted_string.py`
+* `stringMethods.py`
+* `extrastringoperation.py`
+* `practicequestion_2.py`
+* `practicequestion_3.py`
+* `Assignment.py`
+
+**Key Learning:**
+
+I learned how strings work as sequences of characters in Python and practiced accessing, slicing, formatting, and manipulating strings using different operations and built-in methods.
+
+**Status:** ✅ Completed
+
 ---
 
-## 🎯 What I'm Practicing
+## 📈 Learning Progress
 
-Through these chapters, I am focusing on:
-
-* Understanding Python fundamentals
-* Writing Python programs from scratch
-* Practicing problem-solving
-* Understanding errors and debugging them
-* Converting theory into working code
-* Building consistency through regular practice
-* Organizing my learning and assignments on GitHub
+| Chapter   | Topic                  | Status      |
+| --------- | ---------------------- | ----------- |
+| Chapter 0 | Python Fundamentals    | ✅ Completed |
+| Chapter 1 | Variables & User Input | ✅ Completed |
+| Chapter 2 | Data Types & Operators | ✅ Completed |
+| Chapter 3 | Strings                | ✅ Completed |
+| Chapter 4 | Coming Soon            | 🔜 Upcoming |
 
 ---
 
-## 🚀 Learning Progress
+## 🎯 Goals
 
-| Chapter   | Status      |
-| --------- | ----------- |
-| Chapter 0 | ✅ Completed |
-| Chapter 1 | ✅ Completed |
-| Chapter 2 | ✅ Completed |
-| Chapter 3 | 🔜 Upcoming |
+Through this revision, I aim to:
 
----
-
-## 💡 Why This Repository?
-
-Instead of only reading Python concepts, I am trying to **learn by writing code, making mistakes, debugging, and solving problems**.
-
-This repository serves as a record of my Python learning journey and will continue to grow as I progress through more advanced topics.
+* Strengthen my Python fundamentals
+* Improve problem-solving skills
+* Practice writing clean and understandable code
+* Become more comfortable with Python syntax
+* Learn through hands-on coding
+* Track my progress chapter by chapter
+* Build a strong foundation for advanced Python concepts
 
 ---
 
-### 🐍 Keep Learning. Keep Coding. Keep Improving.
+## 💻 Practice Approach
 
-**Python Basics Revision — One Chapter at a Time.**
+For each chapter, I practice concepts through:
+
+* Concept revision
+* Small Python programs
+* Assignments
+* Practice questions
+* Debugging errors
+* Experimenting with different approaches
+
+This repository represents my progress as I continue learning and revising Python.
+
+---
+
+## 🚀 Progress Update
+
+**Current Progress: Chapter 3 — Strings ✅**
+
+More chapters coming soon! 🐍
+
+---
+
+## 👩‍💻 Author
+
+**Shakun Sharma**
+
+Learning Python one chapter at a time. 🐍💻
+
+---
+
+⭐ This repository will continue to grow as I learn, practice, and improve my Python skills.
